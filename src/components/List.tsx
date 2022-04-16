@@ -30,7 +30,7 @@ const List: React.FC<Props> = ({
   return (
     <div className="list">
       <div className={check.val1 ? "active" : ""}>
-        <label htmlFor="one">one</label>
+        <label htmlFor="one">Один</label>
         <input
           ref={ref1}
           onChange={(e) => oneLastVal(e, 1)}
@@ -40,7 +40,7 @@ const List: React.FC<Props> = ({
         />
       </div>
       <div className={check.val2 ? "active" : ""}>
-        <label htmlFor="two">two</label>
+        <label htmlFor="two">Два</label>
         <input
           ref={ref2}
           onChange={(e) => oneLastVal(e, 2)}
@@ -50,7 +50,7 @@ const List: React.FC<Props> = ({
         />
       </div>
       <div className={check.val3 ? "active" : ""}>
-        <label htmlFor="three">three</label>
+        <label htmlFor="three">Три</label>
         <input
           ref={ref3}
           onChange={(e) => oneLastVal(e, 3)}
@@ -60,7 +60,7 @@ const List: React.FC<Props> = ({
         />
       </div>
       <div className={check.val4 ? "active" : ""}>
-        <label htmlFor="four">four</label>
+        <label htmlFor="four">Четыре</label>
         <input
           ref={ref4}
           onChange={(e) => oneLastVal(e, 4)}
@@ -70,7 +70,7 @@ const List: React.FC<Props> = ({
         />
       </div>
       <div className={check.val5 ? "active" : ""}>
-        <label htmlFor="five">five</label>
+        <label htmlFor="five">Пять</label>
         <input
           ref={ref5}
           onChange={(e) => oneLastVal(e, 5)}
@@ -80,7 +80,7 @@ const List: React.FC<Props> = ({
         />
       </div>
       <div className={check.val6 ? "active" : ""}>
-        <label htmlFor="six">six</label>
+        <label htmlFor="six">Шесть</label>
         <input
           ref={ref6}
           onChange={(e) => oneLastVal(e, 6)}
@@ -90,7 +90,7 @@ const List: React.FC<Props> = ({
         />
       </div>
       <div className={check.val7 ? "active" : ""}>
-        <label htmlFor="seven">seven</label>
+        <label htmlFor="seven">Семь</label>
         <input
           ref={ref7}
           onChange={(e) => oneLastVal(e, 7)}
@@ -100,7 +100,7 @@ const List: React.FC<Props> = ({
         />
       </div>
       <div className={check.val8 ? "active" : ""}>
-        <label htmlFor="eight">eight</label>
+        <label htmlFor="eight">Восемь</label>
         <input
           ref={ref8}
           onChange={(e) => oneLastVal(e, 8)}
