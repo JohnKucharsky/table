@@ -3,7 +3,7 @@ import "./styles.scss";
 
 type Props = {
   check: ch;
-  filter: (number: number) => void;
+  filter: (val: number) => void;
   tab: any;
 };
 const Table: React.FC<Props> = ({ check, filter, tab }) => {
